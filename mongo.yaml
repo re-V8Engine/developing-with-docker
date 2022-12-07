@@ -1,5 +1,9 @@
 version: '3'
 services:
+  my-app:
+    image: cr.yandex/crpga0mb17g3ln2rdkmu/my-app:1.2
+    ports: 
+      - 3000:3000
   mongodb:
     image: mongo:4
     ports:
